@@ -1,0 +1,19 @@
+.table__wrapper {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: black;
+}
