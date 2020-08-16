@@ -1,0 +1,30 @@
+{
+  "name": "iroiro",
+  "version": "1.0.0",
+  "description": "A simple app to visualize colors in space",
+  "main": "index.html",
+  "dependencies": {
+    "mathjs": "^7.1.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel index.html",
+	"build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurMaman/iroiro.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Arthur Maman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurMaman/iroiro/issues"
+  },
+  "homepage": "https://github.com/ArthurMaman/iroiro#readme"
+}
