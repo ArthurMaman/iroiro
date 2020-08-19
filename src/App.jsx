@@ -70,6 +70,7 @@ export default function App() {
     // TO DO : Select a color from the table to see it on the grap
     // TO DO : Opposite color ? 
     // TO DO : More educationnal content
+    // TO DO : Remove Mathjs dependency
     // TO DO : Learn UI :(
 
     const [colors, setColors] = useState(rgbCube)

@@ -50,6 +50,16 @@
     width: auto;
 }
 
+@media screen and (max-width: 500px){
+    .convertbox__li {
+        display: block;
+    }
+
+    .convertbox__input, .convertbox__input-header {
+        width: 50px;
+    }
+}
+
 .convertbox__buttoncontainer {
     display: flex;
     justify-content: flex-end;
