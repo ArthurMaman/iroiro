@@ -123,8 +123,10 @@ export default function App() {
                 <div className="text">
                     <div>
                         <h2>A quick introduction to color spaces</h2>
-                        the most simple representation of the color spectrum in softwares is the <span className="bold">Red Green Blue</span> cube. This reprensation, if simple, does not take into consideration human perception of color.
-                        The <span className="bold">Hue Saturation Value</span> and <span className="bold">Hue Saturation Lightness</span> cylinders attempt to provide a better color space in this perspective, colors are represented by their polar coordinates (saturation and hue) and position along the axis of the cylinder (lightness or value).
+                        the most simple representation of the color spectrum in softwares is the <span className="bold">Red Green Blue</span> cube. 
+                        This reprensatation, though simple, does not take into consideration human perception of color.
+                        The <span className="bold">Hue Saturation Value</span> and <span className="bold">Hue Saturation Lightness</span> cylinders attempt to provide a better color space in this perspective. 
+                        Colors are represented by their polar coordinates (saturation and hue) and position along the axis of the cylinder (lightness or value).
                     </div>
                     <li>The <span className="bold">Hue</span> is the angular position of the point and represents the <span className="bold">pure pigment</span> of the color.</li>
                     <li>
@@ -135,8 +137,8 @@ export default function App() {
                     </li>
                     <li>
                         <span className="bold">Two saturations ? </span>
-                        The saturation is the distance from the cylinder axis to the color point. It represents the <span className="bold">colorfullness</span> of the color point according to its own lightness or value.
-                        The definition of the lightness / value being different in both model, the saturation is also calculated differently.
+                        The saturation is the distance from the cylinder axis to the color point. It represents the <span className="bold">colorfulness</span> of the color point according to its own lightness or value.
+                        The definition of the lightness / value being different in both models, the saturation is also calculated differently.
                     </li>
                 </div>
             </main>
